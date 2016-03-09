@@ -8,7 +8,7 @@
 
 // ==========================================================================
 
-// 1. Declare a variable whose value is an empty Array. 
+// 1. Declare a variable whose value is an empty Array.
 //    Use any method you choose to add at least 4 items to it.
 
 console.log("Question 1");
@@ -30,18 +30,18 @@ var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
 // 7. Combine all of the elements of the array into a string.
 
-// 8. Declare a variable called lastItem whose using .pop() 
+// 8. Declare a variable called lastItem whose using .pop()
 //    Add two new items to lastItem, one at the beginning and one at the end.
 
-// 9. Create a new Array called itemLast. 
+// 9. Create a new Array called itemLast.
 //    The items should be the same as lastItem, only in reverse order.
 
 // 10. Remove the first item of itemLast.
 
-// 11. Remove all items from itemLast 
+// 11. Remove all items from itemLast
 //     (No need to write to the document. Just console.log to test your results)
 
-// 12. Using the Arrays below, create a single Array 
+// 12. Using the Arrays below, create a single Array
 //     called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
 
 var firstArray = [12, 5, 9, 27];
@@ -76,13 +76,5 @@ var array4 = [
 // 18. Remove "Sparky" and "White" from the above array of arrays.
 
 
+//If you're finished with this and want to try some more problems, go to the 'stretch.js' file and start working through those
 
-// BONUS 1: Try to arrange the following items from smallest to largest:
-var sortingNumbers = [2, 5, 98, 55, 77, 300]
-// Explain why it doesn't sort as expected.
-
-
-// BONUS 2: Transform array1 into array2 using as few lines of code as you can without directly changing the value of an item (ie array1[0] = item)
-var array1 = [2, 'dog', 34, 'Bill', 'plant', 'mug', 17];
-// Goal:
-var array2 = ['plant', 17, 2, 'Bill', 'dog'];
