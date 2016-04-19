@@ -41,6 +41,8 @@ var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
 // 12. Using the Arrays below, create a single Array
 //     called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
+var firstArray = [12, 5, 9, 27];
+var secondArray = ['fish', 'dog'];
 
 // Use the following array for questions 13-16:
 var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
