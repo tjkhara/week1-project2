@@ -1,17 +1,30 @@
-// Array for Days!!
+/*
+=======================================================
 
-// For any methods that we didn't cover, please refer to the Array Documentation.
-// Discovering new things is fun and a great way to learn!!
+** Week 1 - Project 2 **
+  * Arrays for Days! *
 
-// Please console.log("Question#") followed by console.log(yourAnswer) after each question.
-// If you would like, practice using document.write() as well. Use any elements you like!
+Below are a number of problems for you to solve using JS. 
+The JS code can be written below each problem and 
+the result can be logged to the console. 
 
-// ==========================================================================
+In order to make the results easy to read, please use 
+console.log("Question #") to declare the problem number 
+being solved followed by console.log(yourAnswer) after each question.
+
+=======================================================
+*/
+
+
 
 // 1. Declare a variable whose value is an empty array.
 //    Use any method you choose to add at least 4 items to it.
 
 console.log("Question 1");
+
+
+
+
 
 // 2. Add an additional item to the beginning of your array.
 
