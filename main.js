@@ -1,12 +1,31 @@
-// Array for Days!!
+/*
+=======================================================
 
-// For any methods that we didn't cover, please refer to the Array Documentation.
-// Discovering new things is fun and a great way to learn!!
+** Week 1 - Project 2 **
+*** Arrays for Days! ***
 
-// Please console.log("Question#") followed by console.log(yourAnswer) after each question.
-// If you would like, practice using document.write() as well. Use any elements you like!
+Below are a number of problems for you to solve
+using JS. The JS code can be written below each
+problem and the result can be logged to the console.
 
-// ==========================================================================
+In order to make the results easy to read,
+please use console.log("Question #") to declare the
+problem number being solved followed by console.log(yourAnswer) after each question.
+
+For any methods that we didn't cover, please refer to the Array Documentation.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+Discovering new things is fun and a great way to learn!!
+
+EXAMPLE:
+1. Log your 'hello world' to the console.
+console.log("Question 1")
+console.log("hello world")
+
+BASIC TRACK: 1-12
+ADVANCED TRACK: 13-18
+=======================================================
+*/
+
 
 // 1. Declare a variable whose value is an empty array.
 //    Use any method you choose to add at least 4 items to it.
@@ -19,9 +38,9 @@ console.log("Question 1");
 
 // 4. Add two new items after the second item.
 
-// 5. Write 'The current length of the array is....' using the .length method
+// 5. Log to the console: 'The current length of the array is....' using the .length method
 
-// Use the following Array for questions 6-11:
+// Use the following Array for questions 6-9:
 var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
 // 6. Change 'mouse' to 'keyboard'
@@ -29,33 +48,16 @@ var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 // 7. Combine all of the elements of the array into a string.
 //    (Hint: check out the 'join' method.)
 
-// 8. Declare a variable called lastItem using .pop() on the things array.
-//    Add two new items to lastItem, one at the beginning and one at the end.
+// 8. Remove the first item.
 
-// 9. Create a new Array called itemLast.
-//    The items should be the same as lastItem, only in reverse order.
+// 9. Remove all items from the things array.
 
-// 10. Remove the first item of itemLast.
-
-// 11. Remove all items from itemLast.
-
-// 12. Using the Arrays below, create a single Array
-//     called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
-var firstArray = [12, 5, 9, 27];
-var secondArray = ['fish', 'dog'];
-
-// Use the following array for questions 13-16:
+// Use the following array for question 10:
 var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
 
-// 13. Add two new people after 'Doug'
+// 10. Arrange the items alphabetically. Store this Array as orderedPeople
 
-// 14. Remove everybody except 'Andrea' and 'Ted'
-
-// 15. Add a new person to the beginning of the Array
-
-// 16. Arrange the items alphabetically. Store this Array as orderedPeople
-
-// 17. Create an array of arrays with the following three arrays:
+// 11. Create an array of arrays with the following three arrays:
 var array1 = ["Fido", "Spot", "Rex", "Sparky"]
 var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"]
 var array3 = ["White", "Black", "Spotted", "Tri-color"]
@@ -67,13 +69,28 @@ var array4 = [
                 ["White", "Black", "Spotted", "Tri-color"]
               ]
 
-// 18. Remove "Sparky" and "White" from the above array of arrays.
+// 12. Remove "Sparky" and "White" from the above array of arrays.
 
-// BONUS 1: Try to arrange the following items from smallest to largest:
+
+
+// ADVANCED TRACK
+// Use the following campingItems array for question 13
+var campingItems = ['tent', 'hiking boots', 'picnic table', 'corn on the cob', 'cooler'];
+
+// 13. Declare a variable called lastItem using .pop() on the campingItems array.
+
+// 14. Add two new items to lastItem, one at the beginning and one at the end.
+
+// 15. Add s'mores to the lastItem array.
+
+// 16. Create a new Array called reversedItems.
+//    The items should be the same as lastItem, only in reverse order.
+
+// 17. Using the Arrays below, create a single Array
+//     called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
+var firstArray = [12, 5, 9, 27];
+var secondArray = ['fish', 'dog'];
+
+// 18: Try to arrange the following items from smallest to largest:
 var sortingNumbers = [2, 5, 98, 55, 77, 300]
 // If it doesn't sort as expected, explain why.
-
-// BONUS 2: Transform array1 into array2 using as few lines of code as you can without directly changing the value of an item (ie array1[0] = item)
-var array1 = [2, 'dog', 34, 'Bill', 'plant', 'mug', 17];
-// Goal:
-var array2 = ['plant', 17, 2, 'Bill', 'dog'];
