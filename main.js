@@ -77,7 +77,7 @@ var array4 = [
 // Use the following campingItems array for question 13
 var campingItems = ['tent', 'hiking boots', 'picnic table', 'corn on the cob', 'cooler'];
 
-// 13. Declare a variable called lastItem using .pop() on the campingItems array.
+// 13. Declare an array called lastItem using .pop() on the campingItems array.
 
 // 14. Add two new items to lastItem, one at the beginning and one at the end.
 
