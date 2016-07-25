@@ -110,8 +110,22 @@ var array4 = [
                 ["Bulldog", "Lab", "Dalmation", "Beagle"],
                 ["White", "Black", "Spotted", "Tri-color"]
               ]
+              
+
+console.log("Question 11");
+var array1 = ["Fido", "Spot", "Rex", "Sparky"];
+var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"];
+var array3 = ["White", "Black", "Spotted", "Tri-color"];
+var array4 = [array1, array2, array3];
+console.log(array4);
+
 
 // 12. Remove "Sparky" and "White" from the above array of arrays.
+
+console.log("Question 12");
+array1.splice(3,1);
+array3.splice(0,1);
+console.log(array4);
 
 
 
