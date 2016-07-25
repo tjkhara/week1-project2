@@ -31,31 +31,73 @@ ADVANCED TRACK: 13-18
 //    Use any method you choose to add at least 4 items to it.
 
 console.log("Question 1");
+var newarray = [];
+newarray.push('panda', 'penguin', 'whale', 'dolphin');
+console.log(newarray);
 
 // 2. Add an additional item to the beginning of your array.
 
+console.log("Question 2");
+newarray.unshift('emu');
+console.log(newarray);
+
 // 3. Remove the second and third items in your array.
+
+console.log("Question 3");
+newarray.splice(1,2);
+console.log(newarray);
 
 // 4. Add two new items after the second item.
 
+console.log("Question 4");
+newarray.splice(2,0,"animal x", "animal y");
+console.log(newarray);
+
 // 5. Log to the console: 'The current length of the array is....' using the .length method
+
+console.log("Question 5");
+console.log("The current length of the array is...." + newarray.length);
 
 // Use the following Array for questions 6-9:
 var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
 // 6. Change 'mouse' to 'keyboard'
 
+console.log("Question 6");
+var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
+things[2] = "keyboard";
+console.log(things);
+
+
 // 7. Combine all of the elements of the array into a string.
 //    (Hint: check out the 'join' method.)
 
+console.log("Question 7");
+var allthingsasstrings = things.join();
+console.log(allthingsasstrings);
+
 // 8. Remove the first item.
 
+console.log("Question 8");
+things.shift();
+console.log(things);
+
 // 9. Remove all items from the things array.
+
+console.log("Question 9");
+things.splice(0,4);
+console.log(things);
 
 // Use the following array for question 10:
 var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
 
 // 10. Arrange the items alphabetically. Store this Array as orderedPeople
+
+console.log("Question 10");
+var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
+var orderedpeople = people.sort();
+console.log(orderedpeople);
+
 
 // 11. Create an array of arrays with the following three arrays:
 var array1 = ["Fido", "Spot", "Rex", "Sparky"]
