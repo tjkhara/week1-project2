@@ -139,9 +139,7 @@ console.log("Question 13");
 
 var campingItems = ['tent', 'hiking boots', 'picnic table', 'corn on the cob', 'cooler'];
 
-var lastItem = [];
-    
-lastItem [0] = campingItems.pop();
+var lastItem = [campingItems.pop()];
 
 console.log(lastItem);
 
